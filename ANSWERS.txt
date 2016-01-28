@@ -1,0 +1,17 @@
+
+1.) Implementation starts at line 26 in leonardo_numbers.js
+    Complexity: O(2^n)
+2.) L(n) = 2 * F(n+1) - 1
+3.) Implementation starts at line 73 in leonardo_numbers.js
+    Complexity: O(2^n)
+    Complexity to be O(log n): It can be done.
+4.) Implemented in traversal.js file.
+5.) -1 -3 -3 -1 1 1 -1 -3 -3 -1
+6.) Implemented in traversal.js file.
+7.) Implemented in leonardo_trees.js file. 
+    The implementation however change the size to the next leonardo number greater than the size if it does not match any leonardo number.
+    Example, for size 6, the final size would be 9.
+8.) Implemented in leonardo_array.js file. Idea for size is the same for the leonardo tree.
+9.) O(log n)
+10.) O(n)
+11.) Scenarios where a priority is considered in the process and also randomizing a list access.

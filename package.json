@@ -1,0 +1,29 @@
+{
+  "name": "leonardonumbers",
+  "version": "1.0.0",
+  "description": "This project contains the implementation of leonardo numbers, leonardo tree, random access array based on leonardo numbers and iterators for leonardo numbers.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node .\\node_modules\\mocha\\bin\\mocha test\\blackbox_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeomartBrenthPAbong/LeonardoNumbers.git"
+  },
+  "keywords": [
+    "leonardo",
+    "leonardo numbers",
+    "leonardo tree",
+    "leonardo array",
+    "leonardo number iterators",
+    "cached leonardo numbers"
+  ],
+  "author": "Geomart Brenth Abong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GeomartBrenthPAbong/LeonardoNumbers/issues"
+  },
+  "homepage": "https://github.com/GeomartBrenthPAbong/LeonardoNumbers#readme"
+}
