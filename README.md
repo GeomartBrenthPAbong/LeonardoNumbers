@@ -6,47 +6,53 @@ All answers can be found in ANSWERS.txt file
 
 # Usage
 Import LeonardoNumbers  
+```javascript
     var ln = require('./LeonardoNumbers');
+```
 
 ## Sequence number generators
 Access the generators by:  
     ln.SequenceGenerators.[generator here]
 
-Types of generators:
-    * LeonardoNumberSolver
-    * LeonardoNumberSolverNoCache
-    * FibonacciNumberSolver
-    * LeonardoNumberSolverDecorator
+Types of generators:  
+*    LeonardoNumberSolver
+*    LeonardoNumberSolverNoCache
+*    FibonacciNumberSolver
+*    LeonardoNumberSolverDecorator
 
 To get a number from a generator, you just have to call the get function of the instance of that generator
 
 Example:  
+```javascript
     var l = new ln.SequenceGenerators.LeonardoNumberSolver();
     console.log(l.get(4));
-
+```
 ## Sequence number generation via iterators
 Access iterators by:  
     ln.LeonardoIterators.[iterator here]
 
-Types of Iterators:
-    * LeonardoNumberIterator
-    * LeonardoNumberIteratorCached
+Types of Iterators:  
+*   LeonardoNumberIterator
+*    LeonardoNumberIteratorCached
 
 Same as above, to generate a number, call get function
 
 Example:  
+```javascript
     var l = new ln.LeonardoIterators.LeonardoNumberIterator();
     console.log(l.get(4));
+```
 
 ## Data structures
 Access data structure by:  
     ln.ds
 
-Types of data structures:
-    * LeonardoTree
-    * LeonardoArray
+Types of data structures:  
+*   LeonardoTree
+*   LeonardoArray
 
-Example:
+Example:  
+```javascript
     var la = new ln.ds.LeonardoArray(9);
     la.set(0, 10);
     console.log(la.get(0));
@@ -56,3 +62,4 @@ Example:
     lt.insert(10);
     lt.find(10);
     lt.remove(10);
+```
